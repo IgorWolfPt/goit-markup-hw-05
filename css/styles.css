@@ -34,6 +34,9 @@ ol, ul {
 img {
     display: block;
 }
+label {
+    display: block;
+}
 
 .icon-big {
     margin: 0 auto;
