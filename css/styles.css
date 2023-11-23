@@ -157,7 +157,6 @@ label {
     gap: 40px;
 }
 .list-text {
-    /* position: relative; */
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -256,6 +255,8 @@ label {
     background-color: #404BBF;
     cursor: pointer;
 }     
+
+
 
                /* SECOND SECTION */
 
@@ -560,9 +561,7 @@ label {
 
 
 .list-box-portfolio {
-    /* display: block; */
     justify-content: center;
-    /* padding-bottom: 32px; */
     width: calc((100% - 24px * 2) / 3);
     border: 1px solid var(--color-border);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -612,7 +611,6 @@ label {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    /* transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
  .portfolio-title {
@@ -681,8 +679,15 @@ label {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 2px 1px rgba(0, 0, 0, 0.2);
-    
-
+}
+.modal-tittle {
+    width: 360px;
+    color: var(--color-brend-durck);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
 
 .backdrop.is-hidden .modal {
@@ -714,5 +719,27 @@ label {
  }
 .modal-btn-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-form {
+    
+}
+.form-box {
+
+}
+
+.form-label {
+
+}
+.form-input {
+
+}
+.form-icon {
+
+}
+.custom-checkbox {
+
+}
+.custom-checkbox-icon {
+
 }
     
