@@ -390,7 +390,7 @@
           marketing & growth solutions.
         </p>
         </div>
-        <div class="footer">
+        <div class="footer-social">
            <p class="footer-text-social">Social media</p>
           <ul class="list list-footer">
             <li class="social-item">
@@ -419,10 +419,24 @@
             </li>
           </ul>
         </div>
-      </div>
+        <div class="subscribe-box">
+          <p class="footer-text-social">Subscribe</p>
+      
+          <form class="footer-form" name="subscribe-form">
+          <label class="form-label" for="subscribe-form"></label>
+            <input class="form-input-subscribe" type="email" name="subscribe-form" 
+            placeholder="E-mail">
+            <button class="btn subscribe-btn" type="submit">Subscribe
+              <svg class="subscribe-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-Frame-telegram"></use>
+              </svg></button>
+          </div>
+          </div>
+          </div>
     </footer>
 
     <!-- MODAL WINDOW -->
+
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -469,11 +483,14 @@
             name="user-comment" 
             id="user-comment" 
             rows="4" 
-            placeholder="Text input">
+            placeholder="Text input"
+            required
+            minlength="7">
           </textarea>
           </div>
-          <label class="form-agreement">
-            <input class="" type="checkbox">
+           <div>
+          <label class="form-agreement" for="user-agrttment">
+            <input class="visually-hidden" type="checkbox" name="user-agrttment" id="user-agrttment">
             <span class="custom-checkbox">
               <svg class="custom-checkbox-icon" width="10" heigth="8">
                 <use href="./images/icons.svg#icon-Vector"></use>
@@ -481,6 +498,7 @@
             </span>
             I accept the terms and conditions of the <a class="form-agreement-link">Privacy Policy</a>
           </label>
+           </div>
           <button class="btn main-btn" type="submit">Send</button>
         </form>
        </div>
