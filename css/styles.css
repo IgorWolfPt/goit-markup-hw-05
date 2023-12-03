@@ -1,5 +1,9 @@
+/**
+  |============================
+  | RESET START
+  |============================
+*/
 
-/* RESET START */
 body {
     background-color: var(--background-color);
     font-family: 'Roboto', sans-serif;
@@ -46,7 +50,12 @@ label {
     justify-content: center;
     align-items: center;
 }
-/* RESET END */
+
+/**
+  |============================
+  | RESET END
+  |============================
+*/
 
 .container {
     width: 1158px;
@@ -68,7 +77,13 @@ label {
         letter-spacing: 0.04em;
         cursor: pointer;
 }
-           /* LOGO */
+   
+/**
+  |============================
+  | LOGO
+  |============================
+*/
+
 
 .section-header {
     border-bottom: 1px solid #e7e9fc;
@@ -145,9 +160,12 @@ label {
 .logo:focus {color: var(--color-logo);
 }
 
-
-                  /* NAVIGATION */
-
+/**
+  |============================
+  | NAVIGATION
+  |============================
+*/
+                 
 .address {
     font-style: normal;
 }
@@ -204,8 +222,12 @@ label {
 }
 
 
-
-            /* FIRST SECTION */
+/**
+  |============================
+  | FIRST SECTION
+  |============================
+*/
+   
    /* MAIN POSTER */
 
 .section-first {
@@ -257,9 +279,12 @@ label {
 }     
 
 
-
-               /* SECOND SECTION */
-
+/**
+  |============================
+  | SECOND SECTION
+  |============================
+*/
+ 
                   /* ABOUT US */
 
 .section-second {
@@ -313,12 +338,13 @@ label {
 }
 
 
+/**
+  |============================
+  | THIRD SECTION
+  |============================
+*/
 
-
-
-              /* THIRD SECTION */
-
-             /* our mission */
+             /* OUR MISSION */
 
 .section-third {
     padding-bottom: 120px;
@@ -337,9 +363,11 @@ label {
 }
                
 
-
-
-               /* FOURTH SECTION */
+/**
+  |============================
+  | FOURTH SECTION
+  |============================
+*/
 
                   /* OUR TEAM */
 
@@ -414,7 +442,11 @@ label {
     background-color: var(--color-logo);
 }
 
-/* SECTION COSTUMERS */
+/**
+  |============================
+  | SECTION COSTUMERS
+  |============================
+*/
 
 
 .costumerc-item {
@@ -443,7 +475,14 @@ label {
     color: var(--color-logo);
     border: 1px solid var(--color-logo);
 }
- /* FOOTER */
+
+
+/**
+  |============================
+  | FOOTER
+  |============================
+*/
+ 
  
 .section-footer {
     display: flex;
@@ -516,9 +555,12 @@ label {
 
  }
 
- 
-    
-        /* BUTTONS */
+ /**
+   |============================
+   | BUTTONS
+   |============================
+ */
+     
         
 .section-portfolio {
     display: block;
@@ -563,7 +605,12 @@ label {
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
-               /* LIST PORTFOLIO */
+               
+/**
+  |============================
+  | LIST PORTFOLIO
+  |============================
+*/
 
 
 .list-box-portfolio {
@@ -631,8 +678,6 @@ label {
  
  .portfolio-mark {
     padding: 0 16px;
-    /* border: 1px solid #e7e9fc;
-    border-top: none; */
  }
 
  .portfolio-title-text {
@@ -651,8 +696,11 @@ label {
     color: var(--color-brend-durck);
 }
 
-
-   /* MODAL WINDOW */
+/**
+  |============================
+  | MODAL WINDOW
+  |============================
+*/
 
 
 .backdrop {
@@ -746,7 +794,6 @@ label {
 
 .form-label {
     display: flex;
-    /* gap: 24px; */
     margin-bottom: 4px;
     color: var(--color-icon);
     font-size: 12px;
@@ -755,7 +802,7 @@ label {
 
 }
 .form-input {
-    width: 100%;
+    width: 100%; 
     height: 40px;
     padding: 11px 34px;
     font-size: 18px;
@@ -876,7 +923,6 @@ input[type='checkbox']:checked + .custom-checkbox {
 .subscribe-btn {
     display: flex;
     min-width: 165px;
-    /* gap: 16px; */
     height: 40px;
     justify-content: center;
     border: none;
