@@ -746,7 +746,7 @@ label {
 
 .form-label {
     display: flex;
-    gap: 24px;
+    /* gap: 24px; */
     margin-bottom: 4px;
     color: var(--color-icon);
     font-size: 12px;
@@ -876,7 +876,7 @@ input[type='checkbox']:checked + .custom-checkbox {
 .subscribe-btn {
     display: flex;
     min-width: 165px;
-    gap: 16px;
+    /* gap: 16px; */
     height: 40px;
     justify-content: center;
     border: none;
@@ -898,6 +898,7 @@ input[type='checkbox']:checked + .custom-checkbox {
 }
 .subscribe-btn-icon {
     fill: var(--background-color);
+    margin-left: 16px;
 }
 
 .subscribe-btn:hover,
