@@ -415,6 +415,7 @@ label {
 }
 
 /* SECTION COSTUMERS */
+/*  */
 
 .costumerc-item {
     width: 168px;
@@ -472,7 +473,6 @@ label {
      color: #f4f4fd;
  }
  .list-footer {
-    /* display: flex; */
     gap: 16px;
     margin-bottom: 32px;
  }
