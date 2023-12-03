@@ -415,7 +415,7 @@ label {
 }
 
 /* SECTION COSTUMERS */
-/*  */
+
 
 .costumerc-item {
     width: 168px;
@@ -456,7 +456,7 @@ label {
     display: flex;
     align-items: baseline;
     justify-content: left;
-    /* gap: 120px; */
+
 }
  
 .footer {    
