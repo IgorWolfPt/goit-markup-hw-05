@@ -856,6 +856,7 @@ input[type='checkbox']:checked + .custom-checkbox {
 }
 .footer-form {
     display: flex;
+    gap: 24px;
 
 }
 .form-input-subscribe {
